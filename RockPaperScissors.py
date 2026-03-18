@@ -46,7 +46,6 @@ while True:
         elif choice == 'quit' or playerScore == 5 or computerScore ==5:
             break
 
-    print("thank you for playing!")
     again = input("Do you want to play again? (yes/no): ").lower()
     if again != "yes":
         print("Thanks for playing!")
